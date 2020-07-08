@@ -2,7 +2,7 @@ import json
 from flask import Flask, render_template, request, redirect, url_for, make_response
 from requests_oauthlib import OAuth2Session
 import os
-os.environ['OAUTHLIB_INSECURE_TRANSPORT'] = '1'
+#os.environ['OAUTHLIB_INSECURE_TRANSPORT'] = '1'
 try:
     import secrets
 except ImportError as e:
